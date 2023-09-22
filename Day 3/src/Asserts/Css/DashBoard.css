@@ -1,0 +1,152 @@
+:root{
+    --mainColor: #363949;
+    --dark:#AAAAAA;
+    --light: #f6f6f9;
+    --light-primary:#CFE8FF;
+    --darkBlack: black;
+    
+}
+
+
+.dash-body{
+    background-color: var(--mainColor);
+}
+
+.app {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center-align items horizontally */
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    
+    font-size: 30px; /* Adjust the font size as needed */
+    text-align: center; /* Center-align text within list items */
+    margin-top: 10px; /* Increase the top margin to push the text further down */
+}
+
+.sidebar ul li:hover {
+    background-color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a slight shadow on hover */
+}
+
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    margin-top: -1em;
+    margin-left: -1.2em;
+    color: white;
+    padding: 20px 20px;
+  }
+  
+  .logout {
+    cursor: pointer;
+  }
+  
+  
+  
+  .main-content {
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
+  }
+  
+  .grid {
+    margin-top: -7em;
+    background-color: var(--darkBlack);
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid h2 {
+    color: var(--light);
+    margin-top: 0;
+  }
+  
+  .grid p{
+    margin-top: 0;
+    color: var(--light);
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .content h1{
+    color: var(--light);
+    font-size: 50px;
+  }
+
+  .content h2{
+    color: var(--light);
+    font-size: 35px;
+  }
+
+  .rem-grid{
+    margin-top: 2em;
+    background-color: var(--darkBlack);
+    padding: 20px;
+    width: 60%;
+    height: 43%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  table {
+    color: var(--light);
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px; /* Add spacing between the table and the container if needed */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: var(--mainColor);
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--mainColor); /* Alternate row background color */
+  }
+  tr:nth-child(odd) {
+    background-color: var(--mainColor); /* Alternate row background color */
+  }
+
+  .rem-grid h1{
+    margin-left: 1em;
+    font-size: 30px;
+  }
