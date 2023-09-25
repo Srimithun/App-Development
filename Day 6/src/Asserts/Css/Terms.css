@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.termspage p, ul, li {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+a {
+    color: #2196f3; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
